@@ -1,0 +1,50 @@
+.monsterBall img {
+  mix-blend-mode: multiply;
+  border-style: none;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.active {
+  animation: shake 3s;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-30deg);
+  }
+  10% {
+    transform: rotate(30deg);
+  }
+  20% {
+    transform: rotate(-30deg);
+  }
+  30% {
+    transform: rotate(-30deg);
+  }
+  40% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  60% {
+    transform: rotate(-30deg);
+  }
+  65% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  80% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(-30deg);
+  }
+}
