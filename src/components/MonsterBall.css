@@ -1,3 +1,10 @@
+.monsterBall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .monsterBall img {
   mix-blend-mode: multiply;
   border-style: none;

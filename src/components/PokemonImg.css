@@ -1,0 +1,12 @@
+.pokeImg {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokeImg img {
+  cursor: pointer;
+  width: 900px;
+  height: 900px;
+}
